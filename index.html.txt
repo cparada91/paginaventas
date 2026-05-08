@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Nuestra Tienda</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="productos">
+        <h2>Productos Destacados</h2>
+        <div class="producto">
+            <img src="C:\Users\parad\Desktop\Nueva carpeta\Screenshot_3" alt="Producto 1">
+            <h3>Nombre del Producto 1</h3>
+            <p>Descripción breve del producto 1.</p>
+            <p>Precio: $XX.XX</p>
+            <button>Agregar al Carrito</button>
+        </div>
+        <div class="producto">
+            <img src="C:\Users\parad\Desktop\Nueva carpeta\Screenshot_3" alt="Producto 2">
+            <h3>Nombre del Producto 2</h3>
+            <p>Descripción breve del producto 2.</p>
+            <p>Precio: $XX.XX</p>
+            <button>Agregar al Carrito</button>
+        </div>
+        <!-- Agrega más productos aquí -->
+    </section>
+    
+    <footer>
+        <h3>Contacto</h3>
+        <p>Envíanos un correo a: <a href="mailto:tu-email@ejemplo.com">tu-email@ejemplo.com</a></p>
+    </footer>
+</body>
+</html>
